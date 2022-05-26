@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Very Simple PageTitle</title>
+</head>
+<body>
+<p>What the actual fuck is going on???</p>
+
+<div th:each="simple : ${simpleList}">
+    <a th:text="${simple.getName()}">simple</a>
+</div>
+
+</body>
+</html>
